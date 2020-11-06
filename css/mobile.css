@@ -1,0 +1,56 @@
+@media(max-width:576px){
+    .title{
+        font-size: 26px;
+    }
+
+    .main{
+        background-size: 430px;
+    }
+
+    .wheel{
+        width: 300px;
+    }
+    .wheel-btn{
+        width: 188px;
+    }
+
+    .money_non-focus{
+        display: none;
+    }
+    
+    .main-wrap{
+        background-position-x: -890px;
+    }
+    .rotate-wheel-btn {
+        width: 120px;
+        height: 75px;
+    }
+
+    .money-left-top,
+    .money-right-bottom,
+    .money-right-center{
+        display: none;
+    }
+    .mt-mobile{
+        margin-top: 90px;
+    }
+    .money{
+        width: 65px;
+    }
+
+    .cub_left{
+        bottom: -145px;
+    }
+    .cub_right {
+        top: -93px;
+        right: 28%;
+    }
+    .money-right-top{
+        right: -6%;
+    }
+    
+    .money-right-top{
+        width: 50px;
+    }
+
+}

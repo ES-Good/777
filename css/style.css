@@ -6,12 +6,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    padding-top: 30px;
+    position: relative;
+    background-position-x: center;
 }
 
 .main{
     background-image: url(../img/cards/cards.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position-x: center;
     position: relative;
 }
 
@@ -23,11 +27,16 @@
     font-family: 'Montserrat';
 }
 
+.wheel{
+    width: auto;
+}
+
 .wheel-btn{
     position: absolute;
     top: -25px;
     left: 50%;
     transform: translateX(-50%);
+    width: auto;
 }
 
 .rotate-wheel-btn{
@@ -63,8 +72,11 @@
     font-size: 18px;
 }
 
-.money{
+.money,
+.cub{
     position: absolute;
+    display: block;
+    width: auto;
 }
 
 .money-left-top{
@@ -102,3 +114,48 @@
     left: -285px;
     position: absolute;
 }
+
+.money_non-focus-left{
+    top: 50%;
+    left: 0;
+    width: 95px;
+}
+
+.money_non-focus-top{
+    left: 45%;
+    top: 0;
+}
+
+.money_non-focus-right{
+    bottom: 0;
+    right: 0;
+    width: 255px;
+}
+
+.cub_left{
+    left: 17%;
+    bottom: 30px;
+}
+
+.cub_right{
+    top: 0;
+    right: 12%;
+}
+
+.rights{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 18px;
+}
+
+.money_non-focus{
+    display: block;
+}
+
+.mt-mobile{
+    margin-top: 0;
+}
+
