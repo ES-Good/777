@@ -30,3 +30,75 @@
     transform: translateX(-50%);
 }
 
+.rotate-wheel-btn{
+    position: absolute;
+    width: 200px;
+    height: 125px;
+    border: 1px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.counter{
+    position: absolute;
+    color: #fff;
+    display: flex;
+    left: 280px;
+    top: -15px;
+    cursor: default;
+}
+
+.counter__num{
+    font-size: 36px;
+    background-color: #d21616;
+    border-radius: 50%;
+    padding: 10px 27px;
+    border: 5px solid #fff;
+    margin-right: 25px;
+}
+
+.counter__discription{
+    font-size: 18px;
+}
+
+.money{
+    position: absolute;
+}
+
+.money-left-top{
+    top: 0;
+    left: 0;
+}
+
+.money-left-bottom{
+    left: 0;
+    bottom: 0;
+}
+
+.money-right-top{
+    top: 0;
+    right: 33%;
+}
+
+.money-right-center{
+    top: 30%;
+    right: 10px;
+}
+
+.money-right-bottom{
+    bottom: 0;
+    right: 80px;
+}
+
+.logo-mobile{
+    display: none;
+    margin: 20px 0;
+}
+
+.logo-desktop{
+    top: 35%;
+    left: -285px;
+    position: absolute;
+}
