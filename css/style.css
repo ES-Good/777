@@ -14,9 +14,10 @@
 .main{
     background-image: url(../img/cards/cards.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 800px;
     background-position-x: center;
     position: relative;
+    background-position-y: top;
 }
 
 .text-red{
@@ -25,6 +26,7 @@
 
 .title{
     font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .wheel{
@@ -48,6 +50,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .counter{
@@ -66,11 +69,14 @@
     padding: 10px 27px;
     border: 5px solid #fff;
     margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .counter__discription{
     font-size: 18px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
 
 .money,
