@@ -29,6 +29,7 @@
 
 .wheel{
     width: auto;
+    transition: transform 3s ease-out,-webkit-transform 3s ease-out;
 }
 
 .wheel-btn{
