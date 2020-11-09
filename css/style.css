@@ -20,6 +20,28 @@
     background-position-y: top;
 }
 
+.btn, .btn-large, .btn-small{
+    background-color: #c7a56f;
+}
+
+.languages{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 99;
+}
+.dropdown-trigger{
+    position: relative;
+}
+
+.dropdown-trigger::after{
+    content: '‣';
+    position: absolute;
+    right: -30px;
+    font-size: 50px;
+    transform: rotate(90deg);
+}
+
 .text-red{
     color: #fb2c2c;
 }
