@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.dropdown-trigger');
     var options = {
-        constrainWidth: false
+        constrainWidth: true,
+        alignment: 'bottom'
     }
     var instances = M.Dropdown.init(elems);
   });
