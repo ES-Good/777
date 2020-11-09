@@ -20,5 +20,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var options = {
         constrainWidth: false
     }
-    var instances = M.Dropdown.init(elems, options);
+    var instances = M.Dropdown.init(elems);
   });

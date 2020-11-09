@@ -258,3 +258,7 @@
     right: -80px;
     bottom: 0;
 }
+
+.counter div{
+    width: 135px;
+}
